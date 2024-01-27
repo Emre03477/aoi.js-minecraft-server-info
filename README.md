@@ -1,6 +1,6 @@
 
 ## 🎊 Nasıl Kullanılır
-1. `config.json` dosyasında gereken alanları doldurun.
+1. `index.js` dosyasında gereken alanları doldurun.
 2. `npm i` ve `node index.js` komutlarıyla botu başlatın.
 3. Botu sunucunuza ekleyin.
 
