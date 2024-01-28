@@ -1,7 +1,7 @@
 
 ## 🎊 Nasıl Kullanılır
-1. `index.js` dosyasında gereken alanları doldurun.
-2. `npm i` ve `node index.js` komutlarıyla botu başlatın.
+1. `main.js` dosyasında gereken alanları doldurun.
+2. `npm i` ve `node main.js` komutlarıyla botu başlatın.
 3. Botu sunucunuza ekleyin.
 
 ## 🧨Destek
