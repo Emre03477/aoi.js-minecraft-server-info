@@ -1,12 +1,5 @@
 module.exports = {
 name:"ip",
 aliases:["swip","serverip","sunucuip","port","mcip","minecraftip"],
-code:`
-$title[Sunucu verileri aşağıda yer alıyor.;https://discord.gg/akparti]
-$addField[Sunucu Port:;$getVar[port;main];true]
-$addField[Sunucu IP:; $getVar[ip;main];true]
-$footer[$guildName[$guildID;$userAvatar[$clientID]]
-$addButton[1;Ayran Code Share;link;https://discord.com/invite/akparti;false]
-$reply[$messageID;false]
-$cooldown[20s;]`
+code: atob("JHRpdGxlW1N1bnVjdSB2ZXJpbGVyaSBhxZ9hxJ/EsWRhIHllciBhbMSxeW9yLjtodHRwczovL2Rpc2NvcmQuZ2cvYWtwYXJ0aV0KJGFkZEZpZWxkW1N1bnVjdSBQb3J0OjskZ2V0VmFyW3BvcnQ7bWFpbl07dHJ1ZV0KJGFkZEZpZWxkW1N1bnVjdSBJUDo7ICRnZXRWYXJbaXA7bWFpbl07dHJ1ZV0KJGZvb3RlclskZ3VpbGROYW1lWyRndWlsZElEOyR1c2VyQXZhdGFyWyRjbGllbnRJRF1dCiRhZGRCdXR0b25bMTtBeXJhbiBDb2RlIFNoYXJlO2xpbms7aHR0cHM6Ly9kaXNjb3JkLmNvbS9pbnZpdGUvYWtwYXJ0aTtmYWxzZV0KJHJlcGx5WyRtZXNzYWdlSUQ7ZmFsc2VdCiRjb29sZG93blsyMHM7XQ==")
     }
