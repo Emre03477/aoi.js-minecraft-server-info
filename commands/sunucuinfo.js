@@ -1,27 +1,5 @@
 module.exports = {
 name:"sunucu",
 aliases:["mcsunucu","minecraftsunucu","mcsw","minecraftsw","sw","sv"],
-code:`
-$title[Ayran Code Share;https://discord.com/invite/akparti]
-$author[$guildname;$guildIcon[$guildID]]
-$addField[Oyun Modu:;Hayatta Kalma;true]
-$addField[Oyuncu Sayısı:;
-$get[aktif] / $get[max];true]
-$addField[Sunucu Sürümü:;$get[surum];true]
-$addField[Sunucu açık mı?;$get[durum2];true]
-$image[$get[resim]]
-$addTimesTamp
-$let[durum2;$replaceText[$get[durum];true;Açık]
-$replaceText[$let[durum;$jsonRequest[https://api.mcstatus.io/v2/status/bedrock/$get[i]:$get[p];online;Hata!]] ;false;Kapalı]
-$let[surum;$jsonRequest[https://api.mcstatus.io/v2/status/bedrock/$get[i]:$get[p];version.name;hata]]
-$let[aktif;$jsonRequest[https://api.mcstatus.io/v2/status/bedrock/$get[i]:$get[p];players.online;Hata]]
-$let[max;$jsonRequest[https://api.mcstatus.io/v2/status/bedrock/$get[i]:$get[p];players.max;Hata]]
-$addButton[1;Ayran Code Share;link;https://discord.com/invite/akparti;false]
-$let[resim;http://status.mclive.eu/$get[i]/$get[i]/$get[p]/banner.png]
-$footer[discord.gg/akparti;$userAvatar[$clientID]]
-$onlyIf[$jsonRequest[https://api.mcstatus.io/v2/status/bedrock/$get[i]:$get[p];online;Hata!]==true;Sunucu açık olmadığından dolayı sunucu verileri gösterilemiyor.]
-$reply[$messageid;false]
-$let[i;$getVar[ip;main]
-$let[p;$getVar[port;main]
-$cooldown[20s;]
-`}
+code: atob("JHRpdGxlW1N1bnVjdSB2ZXJpbGVyaSBhxZ9hxJ/EsWRhIHllciBhbMSxeW9yLjtodHRwczovL2Rpc2NvcmQuZ2cvYWtwYXJ0aV0KJGFkZEZpZWxkW1N1bnVjdSBQb3J0OjskZ2V0VmFyW3BvcnQ7bWFpbl07dHJ1ZV0KJGFkZEZpZWxkW1N1bnVjdSBJUDo7ICRnZXRWYXJbaXA7bWFpbl07dHJ1ZV0KJGZvb3RlclskZ3VpbGROYW1lWyRndWlsZElEOyR1c2VyQXZhdGFyWyRjbGllbnRJRF1dCiRhZGRCdXR0b25bMTtBeXJhbiBDb2RlIFNoYXJlO2xpbms7aHR0cHM6Ly9kaXNjb3JkLmNvbS9pbnZpdGUvYWtwYXJ0aTtmYWxzZV0KJHJlcGx5WyRtZXNzYWdlSUQ7ZmFsc2VdCiRjb29sZG93blsyMHM7XQ==")
+  }
