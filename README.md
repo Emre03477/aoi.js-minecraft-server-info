@@ -5,7 +5,7 @@
 3. Botu sunucunuza ekleyin.
 
 ## 🧨Destek
-Eğer problem yaşıyorsan [Discord Sunucumuza](https://discord.gg/akparti) katılabilirsin.
+Eğer problem yaşıyorsan [Discord Sunucumuza](https://discord.gg/a2RvZm5KN8) katılabilirsin.
 
 
 ## 🎭 Lisans
